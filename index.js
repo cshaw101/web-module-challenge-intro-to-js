@@ -257,7 +257,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(number){
       for(let i = number; i > 0; i --){
-        return `${i} bottles of soda on the wall, ${i} bottles of soda, toke one down pass it around ${i -1} bottles of soda on the wall`;
+        return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i -1} bottles of soda on the wall`;
       }
 }
 
@@ -285,7 +285,7 @@ if(number >= 90) {
 }else if(number < 80 && number >= 70){
   return `you got a C`;
 }else if (number < 69 && number >= 60){
-  'you got a D';
+  return 'you got a D';
 }else if (number < 60){
   return 'you got an F';
 }
